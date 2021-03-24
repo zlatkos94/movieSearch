@@ -31,3 +31,5 @@ For creating tables: $ php artisan migrate
 Seeding data: $ php artisan db:seed
 
 Run server: $ php artisan ser
+
+127.0.0.1:8000/api/documentation
