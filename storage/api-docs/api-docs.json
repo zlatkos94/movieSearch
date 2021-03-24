@@ -1,0 +1,24 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "title": "L5 OpenApi",
+        "description": "L5 Swagger OpenApi description",
+        "version": "1.0.0"
+    },
+    "paths": {
+        "/res-search": {
+            "get": {
+                "description": "Get movies",
+                "operationId": "App\\Http\\Controllers\\ApiController::search",
+                "responses": {
+                    "default": {
+                        "description": "Show movies in database"
+                    }
+                }
+            }
+        }
+    },
+    "security": [
+        []
+    ]
+}
